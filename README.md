@@ -132,7 +132,7 @@ Combine all of the chromosome/orientation sets back into one file.
 ###7. Determine presence of the SV breakpoint predictions in samples.
 =======================================================================
 
-    $ scripts/frequency.py -f all.sv-calls.final -d all.sv-calls.detail > all.sv-calls.freq
+    $ scripts/frequency.py -c config.hydra.txt -f all.sv-calls.final -d all.sv-calls.detail > all.sv-calls.freq
     
     
 ###8. Change footprint intervals into breakpoint intervals.
