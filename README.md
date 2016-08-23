@@ -138,5 +138,5 @@ Combine all of the chromosome/orientation sets back into one file.
 ###8. Change footprint intervals into breakpoint intervals.
 ===============================================================
 
-    $ scripts/hydraToBreakpoint -i all.sv-calls.freq >  all.sv-calls.bkpts
+    $ scripts/hydraToBreakpoint.py -i all.sv-calls.freq >  all.sv-calls.bkpts
     
