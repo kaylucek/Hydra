@@ -7,8 +7,8 @@ then
 	exit
 fi
 
-CONFIG=$1
-ROUTED_FILES=$2
+ROUTED_FILES=$1
+CONFIG=$2
 PROCS=$3
 PUNT=$4
 INDEX=0
